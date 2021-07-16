@@ -1,0 +1,16 @@
+{
+    "name": "24HourHomepage",
+    "manifest_version": 3,
+    "short_name": "24HourHomepage",
+    "description": "Sets the user's new tab location to 24HourHomepage.com",
+    "version": "1.0.0",
+    "chrome_settings_overrides": {
+        "homepage": "http://24hourhomepage.com?fromExtension=true"
+    },
+    "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}
