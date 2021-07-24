@@ -3,13 +3,16 @@
     "manifest_version": 3,
     "short_name": "24HourHomepage",
     "description": "Sets the user's new tab location to 24HourHomepage.com",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "chrome_settings_overrides": {
         "homepage": "https://24hourhomepage.com"
     },
-    "chrome_url_overrides": {
-        "newtab": "main.html"
+    "background": {
+        "service_worker": "background.js"
     },
+    "permissions": [
+        "tabs"
+    ],
     "icons": {
         "16": "icon16.png",
         "32": "icon32.png",
