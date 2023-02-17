@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0359EA5299F429400D2D020 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = D0359EA4299F429400D2D020 /* background.js */; };
+		D0815F06299F1AFB00F07F99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0815F05299F1AFB00F07F99 /* AppDelegate.swift */; };
+		D0815F0A299F1AFB00F07F99 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D0815F08299F1AFB00F07F99 /* Main.html */; };
+		D0815F0C299F1AFB00F07F99 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0815F0B299F1AFB00F07F99 /* Icon.png */; };
+		D0815F0E299F1AFB00F07F99 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D0815F0D299F1AFB00F07F99 /* Style.css */; };
+		D0815F10299F1AFB00F07F99 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D0815F0F299F1AFB00F07F99 /* Script.js */; };
+		D0815F12299F1AFB00F07F99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0815F11299F1AFB00F07F99 /* ViewController.swift */; };
+		D0815F15299F1AFB00F07F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0815F13299F1AFB00F07F99 /* Main.storyboard */; };
+		D0815F17299F1AFC00F07F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0815F16299F1AFC00F07F99 /* Assets.xcassets */; };
+		D0815F1F299F1AFD00F07F99 /* 24HourHomepage Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D0815F1E299F1AFD00F07F99 /* 24HourHomepage Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D0815F24299F1AFD00F07F99 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0815F23299F1AFD00F07F99 /* SafariWebExtensionHandler.swift */; };
+		D0815F27299F1AFD00F07F99 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = D0815F26299F1AFD00F07F99 /* _locales */; };
+		D0815F29299F1AFD00F07F99 /* images in Resources */ = {isa = PBXBuildFile; fileRef = D0815F28299F1AFD00F07F99 /* images */; };
+		D0815F2B299F1AFD00F07F99 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D0815F2A299F1AFD00F07F99 /* manifest.json */; };
+		D0815F31299F1AFD00F07F99 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = D0815F30299F1AFD00F07F99 /* popup.html */; };
+		D0815F33299F1AFD00F07F99 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = D0815F32299F1AFD00F07F99 /* popup.css */; };
+		D0815F35299F1AFD00F07F99 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = D0815F34299F1AFD00F07F99 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0815F20299F1AFD00F07F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0815EFA299F1AFB00F07F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0815F1D299F1AFD00F07F99;
+			remoteInfo = "24HourHomepage Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D0815F3D299F1AFD00F07F99 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D0815F1F299F1AFD00F07F99 /* 24HourHomepage Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D0359EA4299F429400D2D020 /* background.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		D0815F02299F1AFB00F07F99 /* 24HourHomepage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 24HourHomepage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0815F05299F1AFB00F07F99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0815F09299F1AFB00F07F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		D0815F0B299F1AFB00F07F99 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D0815F0D299F1AFB00F07F99 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		D0815F0F299F1AFB00F07F99 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		D0815F11299F1AFB00F07F99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0815F14299F1AFB00F07F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0815F16299F1AFC00F07F99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0815F18299F1AFC00F07F99 /* _4HourHomepage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _4HourHomepage.entitlements; sourceTree = "<group>"; };
+		D0815F19299F1AFC00F07F99 /* 24HourHomepage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 24HourHomepage.entitlements; sourceTree = "<group>"; };
+		D0815F1E299F1AFD00F07F99 /* 24HourHomepage Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "24HourHomepage Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0815F23299F1AFD00F07F99 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		D0815F26299F1AFD00F07F99 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		D0815F28299F1AFD00F07F99 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		D0815F2A299F1AFD00F07F99 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		D0815F30299F1AFD00F07F99 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		D0815F32299F1AFD00F07F99 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		D0815F34299F1AFD00F07F99 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		D0815F36299F1AFD00F07F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0815F37299F1AFD00F07F99 /* _4HourHomepage_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _4HourHomepage_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0815EFF299F1AFB00F07F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0815F1B299F1AFD00F07F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0815EF9299F1AFB00F07F99 = {
+			isa = PBXGroup;
+			children = (
+				D0815F04299F1AFB00F07F99 /* 24HourHomepage */,
+				D0815F22299F1AFD00F07F99 /* 24HourHomepage Extension */,
+				D0815F03299F1AFB00F07F99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0815F03299F1AFB00F07F99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0815F02299F1AFB00F07F99 /* 24HourHomepage.app */,
+				D0815F1E299F1AFD00F07F99 /* 24HourHomepage Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0815F04299F1AFB00F07F99 /* 24HourHomepage */ = {
+			isa = PBXGroup;
+			children = (
+				D0815F05299F1AFB00F07F99 /* AppDelegate.swift */,
+				D0815F11299F1AFB00F07F99 /* ViewController.swift */,
+				D0815F13299F1AFB00F07F99 /* Main.storyboard */,
+				D0815F16299F1AFC00F07F99 /* Assets.xcassets */,
+				D0815F18299F1AFC00F07F99 /* _4HourHomepage.entitlements */,
+				D0815F19299F1AFC00F07F99 /* 24HourHomepage.entitlements */,
+				D0815F07299F1AFB00F07F99 /* Resources */,
+			);
+			path = 24HourHomepage;
+			sourceTree = "<group>";
+		};
+		D0815F07299F1AFB00F07F99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0815F08299F1AFB00F07F99 /* Main.html */,
+				D0815F0B299F1AFB00F07F99 /* Icon.png */,
+				D0815F0D299F1AFB00F07F99 /* Style.css */,
+				D0815F0F299F1AFB00F07F99 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D0815F22299F1AFD00F07F99 /* 24HourHomepage Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D0815F23299F1AFD00F07F99 /* SafariWebExtensionHandler.swift */,
+				D0815F36299F1AFD00F07F99 /* Info.plist */,
+				D0815F37299F1AFD00F07F99 /* _4HourHomepage_Extension.entitlements */,
+				D0815F25299F1AFD00F07F99 /* Resources */,
+			);
+			path = "24HourHomepage Extension";
+			sourceTree = "<group>";
+		};
+		D0815F25299F1AFD00F07F99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0815F26299F1AFD00F07F99 /* _locales */,
+				D0815F28299F1AFD00F07F99 /* images */,
+				D0815F2A299F1AFD00F07F99 /* manifest.json */,
+				D0359EA4299F429400D2D020 /* background.js */,
+				D0815F30299F1AFD00F07F99 /* popup.html */,
+				D0815F32299F1AFD00F07F99 /* popup.css */,
+				D0815F34299F1AFD00F07F99 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0815F01299F1AFB00F07F99 /* 24HourHomepage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0815F3E299F1AFD00F07F99 /* Build configuration list for PBXNativeTarget "24HourHomepage" */;
+			buildPhases = (
+				D0815EFE299F1AFB00F07F99 /* Sources */,
+				D0815EFF299F1AFB00F07F99 /* Frameworks */,
+				D0815F00299F1AFB00F07F99 /* Resources */,
+				D0815F3D299F1AFD00F07F99 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0815F21299F1AFD00F07F99 /* PBXTargetDependency */,
+			);
+			name = 24HourHomepage;
+			productName = 24HourHomepage;
+			productReference = D0815F02299F1AFB00F07F99 /* 24HourHomepage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0815F1D299F1AFD00F07F99 /* 24HourHomepage Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0815F3A299F1AFD00F07F99 /* Build configuration list for PBXNativeTarget "24HourHomepage Extension" */;
+			buildPhases = (
+				D0815F1A299F1AFD00F07F99 /* Sources */,
+				D0815F1B299F1AFD00F07F99 /* Frameworks */,
+				D0815F1C299F1AFD00F07F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "24HourHomepage Extension";
+			productName = "24HourHomepage Extension";
+			productReference = D0815F1E299F1AFD00F07F99 /* 24HourHomepage Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0815EFA299F1AFB00F07F99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D0815F01299F1AFB00F07F99 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D0815F1D299F1AFD00F07F99 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = D0815EFD299F1AFB00F07F99 /* Build configuration list for PBXProject "24HourHomepage" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0815EF9299F1AFB00F07F99;
+			productRefGroup = D0815F03299F1AFB00F07F99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0815F01299F1AFB00F07F99 /* 24HourHomepage */,
+				D0815F1D299F1AFD00F07F99 /* 24HourHomepage Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0815F00299F1AFB00F07F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0815F0C299F1AFB00F07F99 /* Icon.png in Resources */,
+				D0815F15299F1AFB00F07F99 /* Main.storyboard in Resources */,
+				D0815F10299F1AFB00F07F99 /* Script.js in Resources */,
+				D0815F0A299F1AFB00F07F99 /* Main.html in Resources */,
+				D0815F17299F1AFC00F07F99 /* Assets.xcassets in Resources */,
+				D0815F0E299F1AFB00F07F99 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0815F1C299F1AFD00F07F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0815F33299F1AFD00F07F99 /* popup.css in Resources */,
+				D0815F31299F1AFD00F07F99 /* popup.html in Resources */,
+				D0359EA5299F429400D2D020 /* background.js in Resources */,
+				D0815F29299F1AFD00F07F99 /* images in Resources */,
+				D0815F2B299F1AFD00F07F99 /* manifest.json in Resources */,
+				D0815F27299F1AFD00F07F99 /* _locales in Resources */,
+				D0815F35299F1AFD00F07F99 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0815EFE299F1AFB00F07F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0815F12299F1AFB00F07F99 /* ViewController.swift in Sources */,
+				D0815F06299F1AFB00F07F99 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0815F1A299F1AFD00F07F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0815F24299F1AFD00F07F99 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0815F21299F1AFD00F07F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0815F1D299F1AFD00F07F99 /* 24HourHomepage Extension */;
+			targetProxy = D0815F20299F1AFD00F07F99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0815F08299F1AFB00F07F99 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0815F09299F1AFB00F07F99 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		D0815F13299F1AFB00F07F99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0815F14299F1AFB00F07F99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0815F38299F1AFD00F07F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0815F39299F1AFD00F07F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D0815F3B299F1AFD00F07F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "24HourHomepage Extension/_4HourHomepage_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "24HourHomepage Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "24HourHomepage Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.24HourHomepage.-4HourHomepage.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D0815F3C299F1AFD00F07F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "24HourHomepage Extension/_4HourHomepage_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "24HourHomepage Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "24HourHomepage Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.24HourHomepage.-4HourHomepage.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D0815F3F299F1AFD00F07F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 24HourHomepage/24HourHomepage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = 24HourHomepage;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.24HourHomepage.-4HourHomepage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D0815F40299F1AFD00F07F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 24HourHomepage/24HourHomepage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = 24HourHomepage;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.24HourHomepage.-4HourHomepage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0815EFD299F1AFB00F07F99 /* Build configuration list for PBXProject "24HourHomepage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0815F38299F1AFD00F07F99 /* Debug */,
+				D0815F39299F1AFD00F07F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0815F3A299F1AFD00F07F99 /* Build configuration list for PBXNativeTarget "24HourHomepage Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0815F3B299F1AFD00F07F99 /* Debug */,
+				D0815F3C299F1AFD00F07F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0815F3E299F1AFD00F07F99 /* Build configuration list for PBXNativeTarget "24HourHomepage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0815F3F299F1AFD00F07F99 /* Debug */,
+				D0815F40299F1AFD00F07F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0815EFA299F1AFB00F07F99 /* Project object */;
+}
